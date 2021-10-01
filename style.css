@@ -48,15 +48,40 @@ li a .active {
     background-color: #111;
 }
 
-h1 {
+header {
     font-family: 'Stick No Bills', sans-serif;
-    font-size: 10em;
+    font-size: 5em;
     color: aliceblue;
+    margin-left: 10%;
+    margin-bottom: 40%;
 }
+
+#h5home {
+    font-size: 1em;
+}
+
 
 body {
     background: url(images/bg-gaming.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% -50px;
+}
+
+body::before {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+#biggestbox {
+    height: 600px;
+    background-color: seagreen;
+}
+
+#smallerbox {
+    margin: auto;
+    width: auto;
+    background: seashell;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 3em;
+
 }
