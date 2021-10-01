@@ -47,3 +47,16 @@ li a .active {
     /*  */
     background-color: #111;
 }
+
+h1 {
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 10em;
+    color: aliceblue;
+}
+
+body {
+    background: url(images/bg-gaming.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% -50px;
+}
