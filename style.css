@@ -13,7 +13,7 @@ ul {
     overflow: hidden;
     
     /*  */
-    background-color: #333;
+    background-color: seashell;
     box-shadow: 0px 15px 10px -15px #111; 
 }
 /* The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>). */
@@ -27,7 +27,7 @@ li a {
     display: block;
     
     /*  */
-    color: white;
+    color: seagreen;
     
     /* The text-align property specifies the horizontal alignment of text in an element. */
     text-align: center;
@@ -41,7 +41,7 @@ li a {
 /* The :hover selector is used to select elements when you mouse over them. */
 li a:hover {
     /*  */
-    background-color: #666;
+    background-color: rgb(149, 199, 171);
 }
 
 li a .active {
@@ -67,6 +67,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% -50px;
+    margin: 0%;
 }
 
 body::before {
@@ -76,6 +77,7 @@ body::before {
 #biggestbox {
     height: 600px;
     background-color: seagreen;
+
 }
 
 #smallerbox {
@@ -93,6 +95,20 @@ body::before {
     border-radius: 25px;
     border: 6px solid #777c7b;
     padding: 20px; 
-    width: 200px;
-    height: 150px;
+    width: 60%;
+    height: 700px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aboutbox img {
+    border-radius: 50%;
+    border: 6px solid #777c7b;
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 30px;
+    position: relative;
+    top: -130px;
+    
 }
