@@ -27,7 +27,7 @@ li a {
     display: block;
     
     /*  */
-    color: seagreen;
+    color: #111;
     
     /* The text-align property specifies the horizontal alignment of text in an element. */
     text-align: center;
@@ -80,6 +80,15 @@ body::before {
 
 }
 
+#biggestbox a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
 #smallerbox {
     margin: auto;
     width: auto;
@@ -93,22 +102,33 @@ body::before {
 
 #aboutbox {
     border-radius: 25px;
-    border: 6px solid #777c7b;
+    border: 6px solid seashell;
     padding: 20px; 
     width: 60%;
-    height: 700px;
+    height: 600px;
     margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
+    background-color: seagreen;
+}
+
+#aboutbox h1 {
+    font-family: 'Roboto Mono' , monospace;
+    font-weight: bold;
+}
+
+#aboutbox p {
+    font-family: 'Roboto Mono' , monospace;
 }
 
 #aboutbox img {
     border-radius: 50%;
-    border: 6px solid #777c7b;
-    max-width: 200px;
-    max-height: 200px;
-    margin-bottom: 30px;
+    border: 6px solid seashell;
+    max-width: 30%;
+    max-height: 30%;
     position: relative;
-    top: -130px;
-    
+    top: -120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
