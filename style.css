@@ -77,7 +77,7 @@ li a .active {
     font-size: 5em;
     color: aliceblue;
     margin-left: 10%;
-    margin-bottom: 40%;
+    margin-bottom: 500px;
 }
 
 
@@ -104,7 +104,7 @@ body::before {
 }
 
 #biggestbox {
-    height: 600px;
+    height: 500px;
     background-color: seagreen;
 
 }
