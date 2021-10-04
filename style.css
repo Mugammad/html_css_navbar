@@ -1,5 +1,5 @@
 /* The <ul> tag defines an unordered (bulleted) list */
-ul {
+.navBar ul {
     /* Remove list bullets */
     list-style-type: none;
     
@@ -11,11 +11,32 @@ ul {
     
     /* The overflow property specifies what should happen if content overflows an element's box. */
     overflow: hidden;
+    /*width: 100%;*/
+    /*margin-top: -107px;*/
     
     /*  */
     background-color: seashell;
     box-shadow: 0px 15px 10px -15px #111; 
+    /*position: fixed;*/
 }
+
+#navHome ul {
+    position: fixed;
+    width: 100%;
+    margin-top: -107px;
+}
+
+#navAbout ul {
+    position: fixed;
+    width: 100%;
+    margin-top: -200px;
+}
+
+#navContact {
+    position: fixed;
+    width: 100%;
+}
+
 /* The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>). */
 li {
     /* The float property is used for positioning and formatting content e.g. let an image float left to the text in a container. */
@@ -64,11 +85,16 @@ header {
 
 body {
     background-image: url(images/new_bg.jpg);
-    background-size: cover;
+    background-size: 170%;
     background-attachment: fixed;
-    background-position: 50% -50px;
+    background-position: 50%;
     margin: 0%;
+    animation: fadebackground 25s infinite;
 }
+@keyframes fadebackground {
+    from {background-size: 170%;}
+    to {background-size: 200%;}
+  } 
 
 body::before {
     background-color: rgba(0, 0, 0, 0.25);
@@ -132,3 +158,32 @@ body::before {
     margin-left: auto;
     margin-right: auto;
 }
+
+.box_form {
+    background-color: seashell;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
