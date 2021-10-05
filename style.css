@@ -226,5 +226,9 @@ input[type=text] {
     box-shadow: 0px 3px 10px rgba(0,0,0,.25);
   }
 
+  .instagram:hover {
+      background: rgb(43, 83, 61);
+  }
+
 
   
