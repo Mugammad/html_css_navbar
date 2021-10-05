@@ -92,11 +92,12 @@ body {
     background-attachment: fixed;
     background-position: 50%;
     margin: 0%;
-    animation: fadebackground 25s infinite;
+    animation: fadebackground 50s infinite;
 }
 @keyframes fadebackground {
-    from {background-size: 170%;}
-    to {background-size: 200%;}
+    0% {background-size: 170%;}
+    50% {background-size: 200%;}
+    100% {background-size: 170%;}
   } 
 
 body::before {
