@@ -207,7 +207,7 @@ input[type=text] {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: rgb(43, 83, 61);
   }
 
   .instagram {
