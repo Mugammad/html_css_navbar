@@ -20,7 +20,7 @@
     /*position: fixed;*/
 }
 
-#navHome ul {
+/*#navHome ul {
     position: fixed;
     width: 100%;
     margin-top: -107px;
@@ -37,7 +37,7 @@
     width: 100%;
     margin-top: -100px;
     
-}
+}*/
 
 /* The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>). */
 li {
@@ -78,6 +78,7 @@ li a .active {
     color: aliceblue;
     margin-left: 10%;
     margin-bottom: 500px;
+    width: 100%;
 }
 
 
@@ -87,7 +88,7 @@ li a .active {
 
 
 body {
-    background-image: url(images/new_bg.jpg);
+    background-image: url(./images/bgbetter.jpg);
     background-size: 170%;
     background-attachment: fixed;
     background-position: 50%;
